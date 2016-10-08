@@ -1,8 +1,85 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font:"Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.masterPadding {
+  padding: 50px;
+}
+/* Home */
+
+.animateLogo {
+  font-size: 7em;
+}
+
+.information {
+  font-size: 1em;
+}
+
+.about {
+  display: inline-block;
+  max-width: 80%;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.aboutText {
+  margin-top: 50px;
+}
+
+.resume {
+  max-width: 50%;
+}
+
+.resumeButton {
+  margin-left: 80px;
+  margin-right: -50px;
+}
+
+.animation {
+  margin-left: -100px;
+  font-size: 2em;
+}
+
+/* UX Gallery */
+
+.uxGallery {
+  margin-top: 250px;
+}
+
+.galleryInfo {
+  max-width: 80%;
+  margin-left: -200px;
+  margin-top: 20px;
+}
+
+.gitHub {
+  width: 50%;
+  margin-left: 80px;
+}
+
+.galleryText {
+  margin-left: 5px;
+  margin-top: -10px;
+}
+
+.one {
+  margin-left: -10px
+}
+
+/* Animation Gallery */
+
+.animationText {
+  margin-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 30px;
+  background-color: black;
+  color: white;
 }

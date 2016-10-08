@@ -1,0 +1,17 @@
+{
+  "name": "personalWebsite",
+  "homepage": "https://github.com/jessicawise/personalWebsite",
+  "authors": [
+    "Jessica Wise <jessica.lee.wise@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
