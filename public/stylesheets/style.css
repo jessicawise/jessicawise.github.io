@@ -11,6 +11,17 @@ a {
 }
 /* Home */
 
+.home {
+  background-color: purple;
+}
+
+.Logo {
+  width: 420px;
+  height: 324px;
+  background: url('../images/LogoAnimation_Spritesheet12x12.png');
+
+}
+
 .animateLogo {
   font-size: 7em;
 }
@@ -46,6 +57,10 @@ a {
 
 /* UX Gallery */
 
+.ux {
+  background-color: blue;
+}
+
 .uxGallery {
   margin-top: 250px;
 }
@@ -71,6 +86,10 @@ a {
 }
 
 /* Animation Gallery */
+
+.animationGallery {
+  background-color: red;
+}
 
 .animationText {
   margin-top: 10px;
