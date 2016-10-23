@@ -1,24 +1,36 @@
+@font-face {
+    font-family: 'jessicasfontmedium';
+    src: url('../fonts/JessicasFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
-  font:"Lucida Grande", Helvetica, Arial, sans-serif;
+
 }
 
 a {
   color: #00B7FF;
 }
-
-.masterPadding {
-  padding: 50px;
-}
 /* Home */
 
 .home {
-  background-color: purple;
+  background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 69%, rgba(235,202,235,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(69%, rgba(255,255,255,1)), color-stop(100%, rgba(235,202,235,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 69%, rgba(235,202,235,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 69%, rgba(235,202,235,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 69%, rgba(235,202,235,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 69%, rgba(235,202,235,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebcaeb', GradientType=0 );
 }
 
 .Logo {
   width: 420px;
   height: 324px;
   background: url('../images/LogoAnimation_Spritesheet12x12.png');
+  margin-top: -65px;
 
 }
 
@@ -27,7 +39,9 @@ a {
 }
 
 .information {
-  font-size: 1em;
+  font-size: 2em;
+  font-family: 'jessicasfontmedium', Fallback, sans-serif;
+  line-height: .8;
 }
 
 .about {
@@ -58,11 +72,14 @@ a {
 /* UX Gallery */
 
 .ux {
-  background-color: blue;
-}
-
-.uxGallery {
-  margin-top: 250px;
+  background: rgba(235,202,235,1);
+background: -moz-linear-gradient(top, rgba(235,202,235,1) 0%, rgba(235,202,235,1) 49%, rgba(207,139,207,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,202,235,1)), color-stop(49%, rgba(235,202,235,1)), color-stop(100%, rgba(207,139,207,1)));
+background: -webkit-linear-gradient(top, rgba(235,202,235,1) 0%, rgba(235,202,235,1) 49%, rgba(207,139,207,1) 100%);
+background: -o-linear-gradient(top, rgba(235,202,235,1) 0%, rgba(235,202,235,1) 49%, rgba(207,139,207,1) 100%);
+background: -ms-linear-gradient(top, rgba(235,202,235,1) 0%, rgba(235,202,235,1) 49%, rgba(207,139,207,1) 100%);
+background: linear-gradient(to bottom, rgba(235,202,235,1) 0%, rgba(235,202,235,1) 49%, rgba(207,139,207,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebcaeb', endColorstr='#cf8bcf', GradientType=0 );
 }
 
 .galleryInfo {
@@ -88,7 +105,14 @@ a {
 /* Animation Gallery */
 
 .animationGallery {
-  background-color: red;
+  background: rgba(208,139,207,1);
+background: -moz-linear-gradient(top, rgba(208,139,207,1) 0%, rgba(208,139,207,1) 42%, rgba(163,77,163,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(208,139,207,1)), color-stop(42%, rgba(208,139,207,1)), color-stop(100%, rgba(163,77,163,1)));
+background: -webkit-linear-gradient(top, rgba(208,139,207,1) 0%, rgba(208,139,207,1) 42%, rgba(163,77,163,1) 100%);
+background: -o-linear-gradient(top, rgba(208,139,207,1) 0%, rgba(208,139,207,1) 42%, rgba(163,77,163,1) 100%);
+background: -ms-linear-gradient(top, rgba(208,139,207,1) 0%, rgba(208,139,207,1) 42%, rgba(163,77,163,1) 100%);
+background: linear-gradient(to bottom, rgba(208,139,207,1) 0%, rgba(208,139,207,1) 42%, rgba(163,77,163,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d08bcf', endColorstr='#a34da3', GradientType=0 );
 }
 
 .animationText {
