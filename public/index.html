@@ -16,7 +16,7 @@
 <body>
   <!-- Home -->
   <div id="fullpage">
-    <div class="container-fluid  home section">
+    <div class="container-fluid  home section" data-anchor="Home">
       <div class="row">
         <div class="col-xs-12">
           <center>
@@ -53,8 +53,8 @@
     </div>
 
     <!-- UX Gallery -->
-    <div class="container-fluid ux section">
-      <div class="row">
+    <div class="container-fluid ux section" data-anchor="UX">
+      <div class="row uxHeader ">
         <div class="col-xs-12">
           <center>
             <div class="header">UX Gallery
@@ -65,34 +65,40 @@
 
       <center>
         <div class="row galleryInfo">
-          <div class="col-md-4"><div class=" boxFormat boxShadow"><img class="galleryImage" src="images/placeholder.png" />
-            <br />
-            <img class="gitHub" src="images/github.png" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
-              eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
-              justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan.</p>
-          </div></div>
-          <div class="col-md-4"><div class=" boxFormat boxShadow"><img class="galleryImage" src="images/placeholder.png" />
-            <br />
-            <img class="gitHub" src="images/github.png" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
-              eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
-              justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan.</p>
-          </div></div>
-          <div class="col-md-4"><div class=" boxFormat boxShadow"><img class="galleryImage" src="images/placeholder.png" />
-            <br />
-            <img class="gitHub" src="images/github.png" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
-              eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
-              justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan.</p>
-          </div></div>
+          <div class="col-md-4 click" data-toggle="modal" data-target="#myModal">
+            <div class=" boxFormat boxShadow"><img class="galleryImage" src="images/placeholder.png" />
+              <br />
+              <img class="gitHub" src="images/github.png" />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
+                eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
+                justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan.</p>
+            </div>
+          </div>
+          <div class="col-md-4 click">
+            <div class=" boxFormat boxShadow"><img class="galleryImage" src="images/placeholder.png" />
+              <br />
+              <img class="gitHub" src="images/github.png" />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
+                eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
+                justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan.</p>
+            </div>
+          </div>
+          <div class="col-md-4 click">
+            <div class=" boxFormat boxShadow"><img class="galleryImage" src="images/placeholder.png" />
+              <br />
+              <img class="gitHub" src="images/github.png" />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
+                eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
+                justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan.</p>
+            </div>
+          </div>
         </div>
       </center>
     </div>
 
     <!-- Animation Gallery -->
-    <div class="container-fluid  animationGallery section">
-      <div class="row">
+    <div class="container-fluid  animationGallery section" data-anchor="Animation">
+      <div class="row animHeader">
         <div class="col-xs-12">
           <center>
             <div class="header">Animation Gallery
@@ -103,30 +109,39 @@
 
       <center>
         <div class="row galleryInfo">
-          <div class="col-md-4"><img src="images/placeholder.png" />
+          <div class="col-md-4 click">
+            <div class=" boxFormat boxShadow"><img class="galleryImage" src="images/placeholder.png" />
+              <br />
+              <p class="aniText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
+                eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
+                justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan.</p>
+            </div>
           </div>
-          <div class="col-md-4 col-md-offset-4"><img src="images/placeholder.png" />
+          <div class="col-md-4 click">
+            <div class=" boxFormat boxShadow"><img class="galleryImage" src="images/placeholder.png" />
+              <br />
+              <p class="aniText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
+                eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
+                justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan.</p>
+            </div>
           </div>
-        </div>
-
-        <div class="row galleryInfo galleryText animationText">
-          <div class="col-md-4 one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
-            eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
-            justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan.</div>
-          <div class="col-md-4 col-md-offset-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
-            eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
-            justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan. </div>
-
+          <div class="col-md-4 click">
+            <div class=" boxFormat boxShadow"><img class="galleryImage" src="images/placeholder.png" />
+              <br />
+              <p class="aniText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet eleifend tristique. Sed fringilla maximus augue a consectetur. Suspendisse feugiat velit a arcu ultrices mollis vitae vel ligula. Maecenas sit amet diam in turpis sagittis
+                eleifend vel eu quam. Duis fermentum velit sit amet lacus faucibus scelerisque. Duis pellentesque mattis sem ac imperdiet. Aliquam mollis est et lobortis tincidunt. Donec porta dui nulla, ut aliquet urna blandit a. Nullam suscipit interdum
+                justo sit amet gravida. Nam aliquam justo in leo tristique aliquet. Phasellus sit amet fermentum mi. Fusce pretium felis ac elementum lacinia. Fusce ut pharetra tortor. Nulla facilisi. Nunc consectetur ac sem eu accumsan.</p>
+            </div>
+          </div>
         </div>
       </center>
       <!-- Footer -->
       <div class="container-fluid footer">
         <center>
           <div class="row">
-            <div class="col-xs-3">Twitter Feed</div>
-            <div class="col-xs-3">Home</div>
-            <div class="col-xs-3">UX</div>
-            <div class="col-xs-3">Animation</div>
+            <div class="col-xs-4">Twitter Feed</div>
+            <div class="col-xs-4"><a href="#Home">Home</a></div>
+            <div class="col-xs-4"><a href="#UX">UX</a></div>
           </div>
         </center>
       </div>
@@ -140,11 +155,33 @@
   <script src="bower_components/animatesprite/scripts/jquery.animateSprite.min.js"></script>
   <script src="javascripts/anims.js"></script>
   <script type="text/javascript" src="bower_components/fullpage.js/dist/jquery.fullpage.js"></script>
+  <script src="javascripts/galleryModals.js"></script>
   <script>
     $(document).ready(function() {
-      $('#fullpage').fullpage();
+      $('#fullpage').fullpage({
+        normalScrollElements: '.modal',
+        anchors: ['Home', 'UX', 'Animation']
+      });
     });
   </script>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
