@@ -168,3 +168,24 @@ a:link , a:visited, a:active, a:hover {
   color: white;
   text-decoration: none;
 }
+
+/* Modals */
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title{
+  font-family: 'jessicasfontmedium', Fallback, sans-serif;
+  font-size: 3em;
+  text-shadow: 1px 1px 0px darkgrey;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #a34da3;
+}
+
+.projectDescrip {
+  margin-left: 293px;
+  position: absolute;
+}
